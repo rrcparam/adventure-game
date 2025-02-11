@@ -139,6 +139,8 @@ function addAnswerButton(choice, container) {
     // this Create a new button for the choice
     const button = document.createElement("button");
     button.textContent = choice.text; 
+    button.setAttribute("role", "button"); //  This will Improves screen reader experience
+    button.setAttribute("tabindex", "0"); // Makes it easy to use  for keyboard users
 
     // Add  event listener to the button
     button.addEventListener("click", () => {
