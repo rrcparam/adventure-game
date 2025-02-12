@@ -94,7 +94,7 @@ const story = {
     }
 };
 
-//  current state in the story
+//  current state in the story.
 
 let currentState = "start";
 
